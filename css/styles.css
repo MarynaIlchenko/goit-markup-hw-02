@@ -1,0 +1,19 @@
+html{
+    ... box-sizing: border-box;
+}
+*,
+*::after
+*::before{
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Raleway, Roboto, sans-serif;
+    font-style: normal;
+    background-color: #FFFFFF;
+}
+
+/* Применится ко всем тегам с классом title */
+.title {
+
+}
