@@ -24,8 +24,6 @@ body {
     list-style: none;
 }
 
-
-
 /*------HEADER------ */
 
 .header {
@@ -36,16 +34,15 @@ body {
     letter-spacing: 0.02em;   
 }
 
-.header-logo {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
-    letter-spacing: 0.03em;
     color: #2196F3;
 }
 
-.logo {
+.header-logo {
     color: var(--header-text-color);
 }
 
@@ -162,4 +159,28 @@ body {
     line-height: 1.18;
     text-align: center;
     color: var(--primery-text-color)
+}
+
+/* ----------FOOTER---------  */
+
+.footer{
+    background: #2F303A;
+}
+
+.footer-logo{
+    color: var(--primery-title-color);
+}
+
+.contacts-address{
+    font-style: inherit;
+}
+
+.contacts-link{
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primery-title-color);
+}
+
+.contacts-color{
+    color: rgba(255, 255, 255, 0.6);
 }
