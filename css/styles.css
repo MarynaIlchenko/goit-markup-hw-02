@@ -1,19 +1,165 @@
-html{
-    ... box-sizing: border-box;
-}
-*,
-*::after
-*::before{
-    box-sizing: inherit;
+:root {
+--primery-title-color: #ffffff;
+--secondary-title-color: #212121;
+--primery-text-color: #757575;
+--accent-color: #2196F3;
+--header-text-color: #212121;
+--header-contacts-color: #757575;
+--btn-text-color: #ffffff;
+--bg-main: #E5E5E5;
 }
 
 body {
-    font-family: Raleway, Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     background-color: #FFFFFF;
+    letter-spacing: 0.03em;
 }
 
-/* Применится ко всем тегам с классом title */
-.title {
+.link {
+    text-decoration: none;
+}
 
+.list {
+    list-style: none;
+}
+
+
+
+/*------HEADER------ */
+
+.header {
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc (16 / 14);
+    letter-spacing: 0.02em;   
+}
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo {
+    color: var(--header-text-color);
+}
+
+.header-list .link.current {
+    color: var(--accent-color);
+}
+
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--header-text-color)
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: var(--accent-color);
+}
+
+.header-contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--header-contacts-color)
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus{
+    color: var(--accent-color)
+}
+
+.hero {
+    background: #2F303A;
+}
+
+/*------HERO------ */
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primery-title-color)
+
+}
+
+.hero-title-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--btn-text-color)
+    }
+
+.hero-title-btn:hover,
+.hero-title-btn:focus {
+    background: #2196F3;
+}
+
+/* ----------ABOUT---------  */
+
+.about-item-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    color: var(--secondary-title-color)
+}
+
+.about-item-text{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primery-text-color)
+}
+
+.services-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    color: var(--secondary-title-color)
+}
+
+/* ----------TEAM---------  */
+
+.team{
+    background: #F5F4FA;
+}
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    color: var(--secondary-title-color)
+}
+
+.team-item-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    color: var(--secondary-title-color)
+}
+
+.team-item-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--primery-text-color)
 }
