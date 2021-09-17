@@ -5,7 +5,6 @@
 --accent-color: #2196F3;
 --header-text-color: #212121;
 --header-contacts-color: #757575;
---btn-text-color: #ffffff;
 --bg-color: #2F303A;
 }
 
@@ -99,7 +98,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: var(--btn-text-color)
+    color: var(--primery-title-color)
     }
 
 .btn {
@@ -210,7 +209,7 @@ body {
 .portfolio-btn:focus,
 .active{
     background:var(--accent-color);
-    color: var(--btn-text-color);
+    color: var(--primery-title-color);
 }
 /* ----------CASES---------  */
 
